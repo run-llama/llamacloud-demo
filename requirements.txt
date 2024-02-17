@@ -1,3 +1,5 @@
-llama-index==0.9.33a6
+llama-index-core==0.10.5a4
+llama-index-indices-managed-llama-cloud
 jupyter
 pypdf
+llama-parse
