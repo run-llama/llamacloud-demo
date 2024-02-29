@@ -19,3 +19,5 @@ source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab
 ```
+
+Note: if you encounter package issues when running notebook examples, please `rm -rf .venv` and repeat the above steps again.

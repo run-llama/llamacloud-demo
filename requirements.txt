@@ -1,5 +1,8 @@
 llama-index-core
+llama-index
+llama-index-embeddings-openai
 llama-index-indices-managed-llama-cloud
+llama-index-readers-file
 jupyter
 pypdf
-llama-parse
+llama-parse==0.3.1
