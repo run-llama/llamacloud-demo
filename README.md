@@ -2,6 +2,7 @@
 
 ## Getting Started
 
+1. Grab an [OpenAI API key](https://platform.openai.com/api-keys) and set it as an environment variable e.g. `export OPENAI_API_KEY=sk-xxx`
 1. Follow the instructions in the section below for setting up the Jupyter Environment.
 1. Go to [https://cloud.llamaindex.ai/](https://cloud.llamaindex.ai/) and create an account using one of the authentication providers.
 1. Once logged in, go to [the API Key page](https://cloud.llamaindex.ai/api-key) and create an API key. Copy that generated API key to your clipboard.
