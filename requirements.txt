@@ -5,4 +5,4 @@ llama-index-indices-managed-llama-cloud
 llama-index-readers-file
 jupyter
 pypdf
-llama-parse==0.3.1
+llama-parse
