@@ -5,13 +5,19 @@
 1. Follow the instructions in the section below for setting up the Jupyter Environment.
 1. Go to [https://cloud.llamaindex.ai/](https://cloud.llamaindex.ai/) and create an account using one of the authentication providers.
 1. Once logged in, go to [the API Key page](https://cloud.llamaindex.ai/api-key) and create an API key. Copy that generated API key to your clipboard.
-1. Open one of the Jupyter notebooks in this repo (`demo.ipynb` or `demo_sec.ipynb`) and paste the API key into the first cell block that reads `os.environ["PLATFORM_API_KEY"] = "..."`
-1. Execute the cells in the notebook until you get to the cell that registers the pipeline with LlamaCloud
-    * e.g. `pg_pipeline_id = pg_pipeline.register()`
+1. Go back to LlamaCloud. Create a project and initialize a new index by specifying the data source, data sink, embedding, and optionally transformation parameters. 
+1. Open one of the Jupyter notebooks in this repo (e.g. `examples/getting_started.ipynb`) and paste the API key into the first cell block that reads `os.environ["PLATFORM_API_KEY"] = "..."`
+1. Copy the `index_name` and `project_name` from the deployed index into the `LlamaCloudIndex` initialization in the notebook.
 
-That should get you started! From there you can go to the playground section of [the LlamaCloud website](https://cloud.llamaindex.ai/) and start experimenting with your pipeline.
+That should get you started! You should now be able to create an e2e pipeline with a LlamaCloud pipeline as the backend.
 
-### Setting up the Jupyter Environment
+### Evals
+
+If you're interested in running/viewing evals, you have the following options from clicking on the "Evals" tab:
+- **Cloud Eval Runs**: Easily run evals on a deployed index on the cloud. Click New Cloud Run, fill out the index/prompt/required info, and add your own questions to run. 
+- **Local Eval Runs**: Take full advantage of the flexible open-source evaluation modules, and upload results to the "Local Eval Runs" tab as a report card. See `examples/batch_eval.ipynb` as an example.
+
+## Setting up the Jupyter Environment
 Here's some commands for installing the Python dependencies & running Jupyter.
 ```bash
 python3 -m venv .venv
@@ -19,5 +25,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab
 ```
+
+Notebooks are in `examples`.
 
 Note: if you encounter package issues when running notebook examples, please `rm -rf .venv` and repeat the above steps again.
