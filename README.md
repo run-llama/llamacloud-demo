@@ -1,5 +1,7 @@
 # LlamaCloud Demo
 
+This repository contains a collection of cookbooks to show you how to build LLM applications using LlamaCloud to help manage your data pipelines, and LlamaIndex as the core orchestration framework.
+
 ## Getting Started
 
 1. Follow the instructions in the section below for setting up the Jupyter Environment.
@@ -10,12 +12,6 @@
 1. Copy the `index_name` and `project_name` from the deployed index into the `LlamaCloudIndex` initialization in the notebook.
 
 That should get you started! You should now be able to create an e2e pipeline with a LlamaCloud pipeline as the backend.
-
-### Evals
-
-If you're interested in running/viewing evals, you have the following options from clicking on the "Evals" tab:
-- **Cloud Eval Runs**: Easily run evals on a deployed index on the cloud. Click New Cloud Run, fill out the index/prompt/required info, and add your own questions to run. 
-- **Local Eval Runs**: Take full advantage of the flexible open-source evaluation modules, and upload results to the "Local Eval Runs" tab as a report card. See `examples/batch_eval.ipynb` as an example.
 
 ## Setting up the Jupyter Environment
 Here's some commands for installing the Python dependencies & running Jupyter.
