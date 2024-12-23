@@ -1,0 +1,26 @@
+invoice_id,line_item,quantity,unit_price,date,matched_sku,standard_name,category,manufacturer,match_confidence
+INV-2024-001,Acme Widget Model X Premium,10,45.99,2024-01-15,ACM-WX-002,Acme Widget X Premium,Widgets,Acme Corporation,0.9185834703840883
+INV-2024-001,Blue Industrial Fasteners 2-inch,25,0.99,2024-01-15,IND-FST-201,Industrial Fastener 2-inch,Fasteners,Industrial Supply Co,0.910306409113106
+INV-2024-001,Widget X Replacement Parts Kit,2,15.5,2024-01-15,ACM-WX-003,Widget X Maintenance Kit,Spare Parts,Acme Corporation,0.8792678438436962
+INV-2024-002,ACME Premium Widget X,15,45.99,2024-01-16,ACM-WX-002,Acme Widget X Premium,Widgets,Acme Corporation,0.9140131851860487
+INV-2024-002,"Industrial Blue Bolt Pack (2"")",30,0.99,2024-01-16,IND-FST-201,Industrial Fastener 2-inch,Fasteners,Industrial Supply Co,0.8382583908338113
+INV-2024-003,Replacement Kit - Widget Model X,5,15.5,2024-01-17,ACM-WX-003,Widget X Maintenance Kit,Spare Parts,Acme Corporation,0.8770430277867924
+INV-2024-003,Widget X by Acme Corp,8,45.99,2024-01-17,ACM-WX-001,Acme Widget X Standard,Widgets,Acme Corporation,0.894901122093112
+INV-2024-004,Heavy Duty Office Chair - Ergonomic Pro,5,299.99,2024-01-20,ERG-CHR-001,Ergonomic Office Chair Pro,Furniture,ErgoComfort,0.9148976612972608
+INV-2024-004,Wireless Keyboard MK-7000,12,89.99,2024-01-20,KB-TEC-001,Wireless Keyboard MK-7000,Input Devices,TechPro,0.9240946937106057
+INV-2024-005,LED Monitor Stand Deluxe,8,79.99,2024-01-22,MON-ACC-001,LED Monitor Stand Deluxe,Monitor Accessories,TechPro,0.9095147351418442
+INV-2024-005,Anti-Glare Screen Protector XL,15,24.99,2024-01-22,MON-ACC-003,Anti-Glare Screen Protector XL,Monitor Accessories,TechPro,0.9194043131236015
+INV-2024-006,Premium Desk Mat - Extended,20,34.99,2024-01-25,ERG-ACC-002,Premium Desk Mat Extended,Accessories,ErgoComfort,0.8982532171172363
+INV-2024-006,Cable Management Kit Pro,30,19.99,2024-01-25,CAB-MGT-001,Cable Management Kit Pro,Cable Management,OfficePro,0.9250739218584808
+INV-2024-007,Acme Widget X Plus Edition,12,55.99,2024-01-28,ACM-WX-006,Widget X Plus Edition,Widgets,Acme Corporation,0.9317778924464734
+INV-2024-007,"Steel Fasteners Pack - 2"" Premium",40,1.29,2024-01-28,IND-FST-202,Premium Steel Fasteners 2-inch,Fasteners,Industrial Supply Co,0.9128260533272909
+INV-2024-008,Widget X Service Bundle,3,149.99,2024-01-30,ACM-WX-005,Widget X Service Bundle,Services,Acme Corporation,0.879212341919151
+INV-2024-008,Ergonomic Mouse Pad Pro,25,15.99,2024-01-30,ERG-ACC-001,Ergonomic Mouse Pad Pro,Accessories,ErgoComfort,0.9402751850208989
+INV-2024-009,Standing Desk Converter XL,6,249.99,2024-02-01,ERG-CHR-002,Standing Desk Converter XL,Furniture,ErgoComfort,0.9263273563040769
+INV-2024-009,Dual Monitor Arm - Professional,10,129.99,2024-02-01,MON-ACC-002,Dual Monitor Arm Professional,Monitor Accessories,TechPro,0.919782514470537
+INV-2024-010,Widget X Enterprise Bundle,2,399.99,2024-02-03,ACM-WX-004,Widget X Enterprise Bundle,Solutions,Acme Corporation,0.8845339059541443
+INV-2024-010,Industrial Fastener Kit - Mixed Sizes,15,45.99,2024-02-03,IND-FST-203,Industrial Fastener Kit Mixed,Fasteners,Industrial Supply Co,0.9222722697183939
+INV-2024-011,Professional Cable Ties (Pack of 100),10,9.99,2024-02-05,CAB-MGT-002,Professional Cable Ties,Cable Management,OfficePro,0.907545342714899
+INV-2024-011,Widget X Maintenance Bundle,4,89.99,2024-02-05,ACM-WX-005,Widget X Service Bundle,Services,Acme Corporation,0.8435487735696562
+INV-2024-012,Premium Office Chair Mat,8,59.99,2024-02-08,ERG-ACC-003,Premium Office Chair Mat,Accessories,ErgoComfort,0.9075361794780354
+INV-2024-012,Desktop Power Hub Pro,15,49.99,2024-02-08,PWR-ACC-001,Desktop Power Hub Pro,Power Accessories,TechPro,0.9150242678465651

@@ -1,0 +1,53 @@
+sku,standard_name,category,manufacturer,description,unit_price
+ACM-WX-001,Acme Widget X Standard,Widgets,Acme Corporation,Standard quality industrial widget Model X series,45.99
+ACM-WX-002,Acme Widget X Premium,Widgets,Acme Corporation,Premium quality industrial widget Model X series with enhanced features,55.99
+ACM-WX-003,Widget X Maintenance Kit,Spare Parts,Acme Corporation,Replacement and maintenance kit for Widget X series,15.50
+ACM-WX-004,Widget X Enterprise Bundle,Solutions,Acme Corporation,Complete enterprise solution including Widget X and accessories,399.99
+ACM-WX-005,Widget X Service Bundle,Services,Acme Corporation,Comprehensive service package for Widget X products,149.99
+IND-FST-201,Industrial Fastener 2-inch,Fasteners,Industrial Supply Co,2-inch blue-coated industrial grade fasteners,0.99
+IND-FST-202,Premium Steel Fasteners 2-inch,Fasteners,Industrial Supply Co,2-inch premium steel fasteners with corrosion resistance,1.29
+IND-FST-203,Industrial Fastener Kit Mixed,Fasteners,Industrial Supply Co,Comprehensive kit of industrial fasteners in various sizes,45.99
+ERG-CHR-001,Ergonomic Office Chair Pro,Furniture,ErgoComfort,Professional-grade ergonomic office chair with lumbar support,299.99
+ERG-CHR-002,Standing Desk Converter XL,Furniture,ErgoComfort,Extra-large standing desk converter with dual monitor support,249.99
+ERG-ACC-001,Ergonomic Mouse Pad Pro,Accessories,ErgoComfort,Professional ergonomic mouse pad with wrist support,15.99
+ERG-ACC-002,Premium Desk Mat Extended,Accessories,ErgoComfort,Extended size premium desk mat with anti-slip base,34.99
+ERG-ACC-003,Premium Office Chair Mat,Accessories,ErgoComfort,Heavy-duty chair mat for carpet protection,59.99
+MON-ACC-001,LED Monitor Stand Deluxe,Monitor Accessories,TechPro,Adjustable monitor stand with LED lighting,79.99
+MON-ACC-002,Dual Monitor Arm Professional,Monitor Accessories,TechPro,Professional-grade dual monitor arm with cable management,129.99
+MON-ACC-003,Anti-Glare Screen Protector XL,Monitor Accessories,TechPro,Large anti-glare screen protector for monitors up to 32",24.99
+KB-TEC-001,Wireless Keyboard MK-7000,Input Devices,TechPro,Professional wireless keyboard with programmable keys,89.99
+CAB-MGT-001,Cable Management Kit Pro,Cable Management,OfficePro,Professional cable management solution kit,19.99
+CAB-MGT-002,Professional Cable Ties,Cable Management,OfficePro,Heavy-duty professional cable ties pack of 100,9.99
+PWR-ACC-001,Desktop Power Hub Pro,Power Accessories,TechPro,Professional desktop power hub with surge protection,49.99
+ACM-WX-006,Widget X Plus Edition,Widgets,Acme Corporation,Enhanced Widget X with additional features,55.99
+ACM-WX-007,Widget X Professional Kit,Widgets,Acme Corporation,Professional-grade Widget X toolkit,129.99
+ERG-DSK-001,Adjustable Desk Platform,Furniture,ErgoComfort,Height-adjustable desk platform with memory settings,279.99
+ERG-DSK-002,Premium Standing Desk,Furniture,ErgoComfort,Electric standing desk with programmable height presets,599.99
+ERG-ACC-004,Ergonomic Keyboard Tray,Accessories,ErgoComfort,Adjustable under-desk keyboard tray,89.99
+ERG-ACC-005,Monitor Riser with Storage,Accessories,ErgoComfort,Monitor riser with built-in storage compartments,69.99
+MON-ACC-004,Monitor Privacy Screen,Monitor Accessories,TechPro,Privacy screen filter for monitors,39.99
+MON-ACC-005,Monitor Cleaning Kit Pro,Monitor Accessories,TechPro,Professional monitor cleaning kit with solutions,19.99
+KB-TEC-002,Mechanical Keyboard Pro,Input Devices,TechPro,Professional mechanical keyboard with RGB lighting,149.99
+KB-TEC-003,Ergonomic Split Keyboard,Input Devices,TechPro,Split design ergonomic keyboard,199.99
+CAB-MGT-003,Under-Desk Cable Tray,Cable Management,OfficePro,Professional under-desk cable management tray,29.99
+CAB-MGT-004,Vertical Cable Manager,Cable Management,OfficePro,Vertical cable management solution,24.99
+PWR-ACC-002,Surge Protector Premium,Power Accessories,TechPro,Premium surge protector with USB ports,79.99
+PWR-ACC-003,Wireless Charging Pad Pro,Power Accessories,TechPro,Professional Qi wireless charging pad,39.99
+IND-FST-204,Security Fasteners Kit,Fasteners,Industrial Supply Co,Security-grade fastener kit with special tools,89.99
+IND-FST-205,Decorative Fasteners Set,Fasteners,Industrial Supply Co,Premium decorative fastener set,34.99
+ACM-WX-008,Widget X Developer Edition,Widgets,Acme Corporation,Specialized Widget X for development environments,159.99
+ACM-WX-009,Widget X Analytics Package,Solutions,Acme Corporation,Analytics suite for Widget X platform,299.99
+ERG-CHR-003,Gaming Chair Professional,Furniture,ErgoComfort,Professional gaming chair with ergonomic features,349.99
+ERG-CHR-004,Conference Room Chair Pro,Furniture,ErgoComfort,Professional conference room chair set,199.99
+ERG-ACC-006,Footrest Pro,Accessories,ErgoComfort,Adjustable ergonomic footrest,49.99
+ERG-ACC-007,Lumbar Support Cushion,Accessories,ErgoComfort,Premium lumbar support cushion,39.99
+MON-ACC-006,Monitor Light Bar,Monitor Accessories,TechPro,LED monitor light bar with brightness control,59.99
+MON-ACC-007,Monitor Desk Mount Basic,Monitor Accessories,TechPro,Basic monitor desk mount,49.99
+KB-TEC-004,Compact Keyboard Pro,Input Devices,TechPro,Professional compact keyboard design,79.99
+KB-TEC-005,Keyboard Palm Rest Premium,Input Devices,TechPro,Premium keyboard palm rest,29.99
+CAB-MGT-005,Cable Sleeve Kit,Cable Management,OfficePro,Professional cable sleeve management kit,14.99
+CAB-MGT-006,Cable Clips Pro Pack,Cable Management,OfficePro,Professional cable clips variety pack,12.99
+PWR-ACC-004,International Power Adapter,Power Accessories,TechPro,Universal international power adapter,44.99
+PWR-ACC-005,USB-C Power Hub,Power Accessories,TechPro,USB-C power hub with multiple ports,89.99
+IND-FST-206,Magnetic Fastener Set,Fasteners,Industrial Supply Co,Magnetic fastener set for special applications,24.99
+IND-FST-207,Quick-Release Fasteners,Fasteners,Industrial Supply Co,Professional quick-release fastener kit,39.99
