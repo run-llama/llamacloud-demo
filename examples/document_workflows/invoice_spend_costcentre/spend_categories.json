@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "department": "Information Technology",
+    "spend_category": "Enterprise Hardware",
+    "description": "Physical computing devices including high-performance workstations, servers, and specialized computing equipment. Covers enterprise-grade laptops with advanced specifications, desktop computers with dedicated graphics capabilities, and server infrastructure with redundant components. Also includes extended warranties, accidental damage protection, and priority support services.",
+    "examples": "Dell Precision Workstations with GPU acceleration, HP ProLiant Servers with redundant power supplies, Enterprise-grade ThinkPad P series with extended warranties"
+  },
+  {
+    "id": 2,
+    "department": "Information Technology",
+    "spend_category": "Cloud Infrastructure",
+    "description": "Cloud computing resources including virtual machines, managed database services, storage solutions, and container orchestration platforms. Encompasses both production and development environments, disaster recovery setups, and associated enterprise support plans. Includes costs for data transfer, API calls, and reserved instance commitments.",
+    "examples": "AWS EC2 instances with auto-scaling, Azure SQL databases with geo-replication, Google Cloud Storage with lifecycle management"
+  },
+  {
+    "id": 3,
+    "department": "Information Technology",
+    "spend_category": "Enterprise Software Licensing",
+    "description": "Corporate-wide software licenses covering operating systems, productivity suites, and enterprise applications. Includes volume licensing agreements, Software Assurance benefits, concurrent user licenses, and enterprise support packages. Also covers software maintenance fees and upgrade rights.",
+    "examples": "Microsoft Enterprise E5 licenses, Adobe Creative Cloud enterprise plans, AutoCAD network licenses with advanced support"
+  },
+  {
+    "id": 4,
+    "department": "Research & Development",
+    "spend_category": "Laboratory Equipment",
+    "description": "Sophisticated scientific and testing equipment used in research facilities and development labs. Includes calibration services, maintenance contracts, and specialized software for equipment operation. Covers both standalone units and integrated testing systems.",
+    "examples": "Mass spectrometers with data analysis software, Environmental testing chambers with monitoring systems, High-precision measurement equipment"
+  },
+  {
+    "id": 5,
+    "department": "Research & Development",
+    "spend_category": "Research Software & Tools",
+    "description": "Specialized software applications and tools used in research, development, and scientific analysis. Includes simulation software, data analysis packages, and research collaboration platforms. Covers both perpetual licenses and subscription-based research tools.",
+    "examples": "Molecular modeling software, Statistical analysis packages, Research data management platforms"
+  },
+  {
+    "id": 6,
+    "department": "Marketing",
+    "spend_category": "Digital Marketing Solutions",
+    "description": "Comprehensive digital marketing tools and platforms including marketing automation, social media management, and analytics solutions. Encompasses content management systems, email marketing platforms, and digital asset management tools. Includes training and professional services for implementation.",
+    "examples": "HubSpot Enterprise, Adobe Marketing Cloud with implementation services, Social media management platforms with analytics"
+  },
+  {
+    "id": 7,
+    "department": "Marketing",
+    "spend_category": "Market Research Services",
+    "description": "Professional market research services including consumer behavior studies, competitive analysis, and market trend research. Covers both qualitative and quantitative research methodologies, focus group facilities, and data acquisition costs.",
+    "examples": "Industry analysis reports, Consumer behavior studies, Brand perception research"
+  },
+  {
+    "id": 8,
+    "department": "Human Resources",
+    "spend_category": "Talent Management Systems",
+    "description": "Integrated HR platforms covering recruitment, onboarding, performance management, and learning management. Includes implementation services, custom workflow development, and integration with existing HR systems. Also covers employee engagement and feedback tools.",
+    "examples": "Workday HCM implementation, SuccessFactors with custom workflows, Learning management systems with content libraries"
+  },
+  {
+    "id": 9,
+    "department": "Human Resources",
+    "spend_category": "Corporate Training Programs",
+    "description": "Comprehensive employee development programs including leadership training, technical skills development, and mandatory compliance training. Covers both in-person and virtual delivery methods, training materials, and certification costs.",
+    "examples": "Executive leadership programs, Technical certification courses, Compliance training packages"
+  },
+  {
+    "id": 10,
+    "department": "Finance",
+    "spend_category": "Financial Management Software",
+    "description": "Enterprise financial software including general ledger, accounts payable/receivable, and financial planning tools. Encompasses implementation services, data migration, custom report development, and integration with banking systems.",
+    "examples": "SAP Financial modules with implementation, Oracle Financials Cloud, Treasury management systems"
+  },
+  {
+    "id": 11,
+    "department": "Finance",
+    "spend_category": "Audit & Compliance Tools",
+    "description": "Advanced compliance monitoring and audit management platforms including risk assessment modules, control testing frameworks, and regulatory reporting tools. Features automated workflow management, document collection, and integration with enterprise systems for continuous monitoring. Includes implementation services and regulatory updates.",
+    "examples": "GRC platforms with custom workflows, Audit management software with analytics, Regulatory reporting systems"
+  },
+  {
+    "id": 12,
+    "department": "Finance",
+    "spend_category": "Investment Analysis Platforms",
+    "description": "Professional financial analysis tools including real-time market data feeds, portfolio management software, and risk analytics platforms. Covers terminal access, data licensing, and specialized financial modeling tools. Includes training and technical support services.",
+    "examples": "Bloomberg Terminal subscriptions, FactSet with research management, Capital IQ with custom templates"
+  },
+  {
+    "id": 13,
+    "department": "Operations",
+    "spend_category": "Manufacturing Automation Systems",
+    "description": "Comprehensive manufacturing control systems including robotics, automated assembly lines, and production monitoring tools. Encompasses PLC systems, SCADA interfaces, and quality control integration. Includes installation, programming, and operator training.",
+    "examples": "Robotic assembly cells with vision systems, Automated material handling systems, Smart factory monitoring platforms"
+  },
+  {
+    "id": 14,
+    "department": "Operations",
+    "spend_category": "Supply Chain Management Solutions",
+    "description": "End-to-end supply chain management platforms including inventory optimization, demand forecasting, and supplier relationship management tools. Features real-time tracking, analytics dashboards, and mobile access. Includes integration with ERP systems and vendor portals.",
+    "examples": "Advanced inventory management systems, Supplier portal platforms, Logistics optimization software"
+  },
+  {
+    "id": 15,
+    "department": "Operations",
+    "spend_category": "Quality Management Systems",
+    "description": "Integrated quality control and assurance platforms including inspection management, defect tracking, and statistical process control tools. Covers audit management, document control, and compliance reporting. Includes training and validation services.",
+    "examples": "Quality inspection software with mobile apps, Statistical process control systems, Laboratory information management systems"
+  },
+  {
+    "id": 16,
+    "department": "Legal",
+    "spend_category": "Contract Management Platforms",
+    "description": "Advanced contract lifecycle management systems including template libraries, workflow automation, and electronic signature integration. Features AI-powered contract analysis, obligation tracking, and compliance monitoring. Includes implementation and custom workflow development.",
+    "examples": "Enterprise contract management software, Legal document automation systems, E-signature platforms with workflow"
+  },
+  {
+    "id": 17,
+    "department": "Legal",
+    "spend_category": "Legal Research & Analytics",
+    "description": "Comprehensive legal research platforms including case law databases, regulatory updates, and legal analytics tools. Covers multiple jurisdictions, practice areas, and includes AI-powered research capabilities. Features custom alert setup and integration with document management systems.",
+    "examples": "LexisNexis research platforms, Westlaw with analytics, Legal research databases with AI capabilities"
+  },
+  {
+    "id": 18,
+    "department": "Facilities",
+    "spend_category": "Building Management Systems",
+    "description": "Integrated building automation systems including HVAC control, energy management, and security integration. Features IoT sensor networks, predictive maintenance capabilities, and sustainability reporting. Includes installation, commissioning, and operator training.",
+    "examples": "Smart building platforms, Energy management systems, Facility monitoring solutions"
+  },
+  {
+    "id": 19,
+    "department": "Facilities",
+    "spend_category": "Workspace Planning Solutions",
+    "description": "Comprehensive workspace management tools including space utilization analytics, move management, and reservation systems. Features CAD integration, mobile apps, and occupancy monitoring. Includes implementation and change management services.",
+    "examples": "Space management software, Desk booking systems, Occupancy analytics platforms"
+  },
+  {
+    "id": 20,
+    "department": "Sales",
+    "spend_category": "Sales Intelligence Platforms",
+    "description": "Advanced sales analytics and intelligence tools including lead scoring, opportunity tracking, and revenue forecasting capabilities. Features AI-powered insights, competitive intelligence, and integration with CRM systems. Includes training and customization services.",
+    "examples": "Sales forecasting platforms, Lead intelligence tools, Revenue analytics systems"
+  },
+  {
+    "id": 21,
+    "department": "Engineering",
+    "spend_category": "CAD/CAM Software Suites",
+    "description": "Professional engineering design software including 3D modeling, simulation, and computer-aided manufacturing capabilities. Features collaboration tools, version control, and cloud rendering options. Includes training and technical support services.",
+    "examples": "AutoCAD Enterprise with specialized toolsets, SolidWorks Professional, Fusion 360 with simulation"
+  },
+  {
+    "id": 22,
+    "department": "Engineering",
+    "spend_category": "Product Lifecycle Management",
+    "description": "Comprehensive PLM platforms including requirements management, change control, and bill of materials management. Features workflow automation, supplier collaboration, and quality tracking. Includes implementation and integration services.",
+    "examples": "PLM software with supply chain integration, Engineering change management systems, Product data management platforms"
+  },
+  {
+    "id": 23,
+    "department": "Customer Service",
+    "spend_category": "Contact Center Solutions",
+    "description": "Enterprise contact center platforms including omnichannel routing, workforce management, and customer analytics. Features AI-powered chatbots, sentiment analysis, and quality monitoring. Includes implementation and agent training services.",
+    "examples": "Cloud contact center platforms, Customer engagement hubs, Service analytics solutions"
+  },
+  {
+    "id": 24,
+    "department": "Product Management",
+    "spend_category": "Product Analytics Tools",
+    "description": "Comprehensive product analytics platforms including usage tracking, feature adoption analysis, and customer journey mapping. Features A/B testing capabilities, user segmentation, and integration with product development tools. Includes implementation and training services.",
+    "examples": "Product analytics platforms, Feature flagging systems, User behavior analytics tools"
+  },
+  {
+    "id": 25,
+    "department": "Security",
+    "spend_category": "Physical Security Systems",
+    "description": "Integrated security management systems including access control, video surveillance, and incident management. Features biometric authentication, visitor management, and emergency response integration. Includes installation, configuration, and security staff training.",
+    "examples": "Enterprise access control systems, Video management platforms, Security operations center solutions"
+  },
+  {
+    "id": 26,
+    "department": "Security",
+    "spend_category": "Cybersecurity Infrastructure",
+    "description": "Enterprise-grade security solutions including next-generation firewalls, intrusion detection systems, and security information and event management (SIEM) platforms. Features zero-trust architecture implementation, threat intelligence feeds, and automated incident response capabilities. Includes 24/7 security operations center support and regular penetration testing services.",
+    "examples": "Advanced firewall systems with ML capabilities, Enterprise SIEM platforms, Automated threat response systems"
+  },
+  {
+    "id": 27,
+    "department": "Security",
+    "spend_category": "Identity Management Solutions",
+    "description": "Comprehensive identity and access management platforms including multi-factor authentication, privileged access management, and single sign-on capabilities. Features directory integration, compliance reporting, and lifecycle management. Includes implementation services and end-user training programs.",
+    "examples": "Enterprise IAM platforms, Privileged access management systems, Biometric authentication solutions"
+  },
+  {
+    "id": 28,
+    "department": "Data Analytics",
+    "spend_category": "Business Intelligence Platforms",
+    "description": "Enterprise analytics platforms including data visualization, self-service reporting, and predictive analytics capabilities. Features real-time dashboards, natural language processing, and automated data preparation tools. Includes data connector development and user enablement programs.",
+    "examples": "Tableau Server enterprise deployment, Power BI Premium implementation, Advanced analytics platforms with AI"
+  },
+  {
+    "id": 29,
+    "department": "Data Analytics",
+    "spend_category": "Data Warehouse Solutions",
+    "description": "Enterprise data warehouse platforms including ETL tools, data quality management, and metadata management capabilities. Features cloud integration, automated scaling, and performance optimization tools. Includes data modeling and warehouse architecture services.",
+    "examples": "Cloud data warehouse platforms, Data integration tools, Metadata management systems"
+  },
+  {
+    "id": 30,
+    "department": "Data Analytics",
+    "spend_category": "Machine Learning Operations",
+    "description": "MLOps platforms including model development, training infrastructure, and deployment management. Features experiment tracking, model versioning, and automated retraining capabilities. Includes setup of CI/CD pipelines and monitoring systems.",
+    "examples": "ML platform implementations, Model management systems, AI infrastructure solutions"
+  },
+  {
+    "id": 31,
+    "department": "Clinical Research",
+    "spend_category": "Clinical Trial Management",
+    "description": "Specialized clinical trial management systems including patient recruitment, data collection, and regulatory compliance features. Supports multi-site trials, electronic data capture, and adverse event reporting. Includes validation services and regulatory submission support.",
+    "examples": "eClinical solutions, Patient data management systems, Clinical research platforms"
+  },
+  {
+    "id": 32,
+    "department": "Clinical Research",
+    "spend_category": "Medical Imaging Systems",
+    "description": "Advanced medical imaging equipment including diagnostic systems, image processing software, and storage solutions. Features AI-assisted diagnosis, 3D reconstruction, and integration with electronic health records. Includes installation, calibration, and clinical training.",
+    "examples": "Diagnostic imaging equipment, Medical image analysis software, Clinical visualization systems"
+  },
+  {
+    "id": 33,
+    "department": "Supply Chain",
+    "spend_category": "Logistics Optimization Tools",
+    "description": "Advanced logistics management platforms including route optimization, fleet management, and real-time tracking capabilities. Features predictive analytics for delivery estimation, cost optimization, and carrier performance monitoring. Includes implementation and integration with ERP systems.",
+    "examples": "Transportation management systems, Fleet tracking solutions, Delivery optimization platforms"
+  },
+  {
+    "id": 34,
+    "department": "Supply Chain",
+    "spend_category": "Inventory Management Systems",
+    "description": "Comprehensive inventory control systems including barcode/RFID tracking, automated reordering, and warehouse management features. Supports multiple locations, mobile access, and integration with supplier systems. Includes setup, training, and optimization services.",
+    "examples": "Advanced warehouse management systems, Automated inventory platforms, Stock optimization tools"
+  },
+  {
+    "id": 35,
+    "department": "Risk Management",
+    "spend_category": "Enterprise Risk Platforms",
+    "description": "Integrated risk management solutions including operational risk assessment, compliance monitoring, and incident management capabilities. Features automated risk scoring, scenario analysis, and regulatory reporting. Includes implementation and risk framework development.",
+    "examples": "Operational risk management systems, Enterprise risk analytics, Compliance monitoring platforms"
+  },
+  {
+    "id": 36,
+    "department": "Digital Innovation",
+    "spend_category": "Innovation Management Tools",
+    "description": "Comprehensive innovation platforms including idea management, portfolio tracking, and collaboration features. Supports stage-gate processes, resource allocation, and ROI tracking. Includes implementation and innovation process consulting.",
+    "examples": "Innovation management software, Idea tracking platforms, Portfolio management tools"
+  },
+  {
+    "id": 37,
+    "department": "Digital Innovation",
+    "spend_category": "Rapid Prototyping Systems",
+    "description": "Advanced prototyping equipment including 3D printers, CNC machines, and design validation tools. Features multiple material capabilities, precision controls, and quality verification. Includes installation, training, and maintenance services.",
+    "examples": "Industrial 3D printing systems, Prototype testing equipment, Design validation tools"
+  },
+  {
+    "id": 38,
+    "department": "Sustainability",
+    "spend_category": "Environmental Monitoring",
+    "description": "Environmental management systems including emissions tracking, waste management, and sustainability reporting tools. Features real-time monitoring, compliance checking, and automated report generation. Includes sensor installation and integration services.",
+    "examples": "Environmental compliance platforms, Sustainability tracking systems, Carbon footprint calculators"
+  },
+  {
+    "id": 39,
+    "department": "Sustainability",
+    "spend_category": "Energy Management Platforms",
+    "description": "Comprehensive energy monitoring and optimization systems including smart metering, consumption analytics, and automated control features. Supports multiple facility management, peak load optimization, and renewable energy integration. Includes implementation and optimization services.",
+    "examples": "Smart energy management systems, Building energy optimization, Renewable energy monitoring"
+  },
+  {
+    "id": 40,
+    "department": "Healthcare Technology",
+    "spend_category": "Telehealth Platforms",
+    "description": "Enterprise telehealth solutions including virtual consultation, remote patient monitoring, and healthcare collaboration features. Supports multiple specialties, electronic health record integration, and secure communication. Includes implementation and clinical workflow optimization.",
+    "examples": "Virtual care platforms, Remote patient monitoring systems, Healthcare collaboration tools"
+  },
+  {
+    "id": 41,
+    "department": "Healthcare Technology",
+    "spend_category": "Patient Management Systems",
+    "description": "Comprehensive healthcare management platforms including patient scheduling, billing management, and clinical workflow automation. Features integration with medical devices, insurance verification, and compliance tracking. Supports HIPAA compliance, audit trails, and secure patient communication. Includes implementation, staff training, and ongoing support services.",
+    "examples": "Electronic Health Record systems, Practice management software, Patient portal solutions"
+  },
+  {
+    "id": 42,
+    "department": "Healthcare Technology",
+    "spend_category": "Medical Device Integration",
+    "description": "Advanced medical device connectivity solutions including real-time monitoring, data aggregation, and clinical alerting systems. Features automated vital sign collection, waveform analysis, and clinical decision support. Supports multiple device types and vendor protocols. Includes installation, calibration, and clinical workflow integration.",
+    "examples": "Medical device integration platforms, Clinical surveillance systems, Healthcare IoT solutions"
+  },
+  {
+    "id": 43,
+    "department": "Procurement",
+    "spend_category": "Strategic Sourcing Platforms",
+    "description": "Enterprise procurement platforms including supplier management, contract negotiation, and spend analytics capabilities. Features RFP automation, vendor performance tracking, and cost optimization tools. Supports multiple currencies and global supplier networks. Includes implementation and procurement process optimization.",
+    "examples": "E-sourcing platforms, Vendor management systems, Procurement analytics tools"
+  },
+  {
+    "id": 44,
+    "department": "Procurement",
+    "spend_category": "Contract Management Systems",
+    "description": "Specialized procurement contract management solutions including template libraries, negotiation workflows, and obligation tracking. Features AI-powered clause analysis, risk scoring, and automated renewal management. Supports multiple languages and jurisdictions. Includes setup and integration with ERP systems.",
+    "examples": "Contract lifecycle management platforms, Supplier agreement systems, Procurement compliance tools"
+  },
+  {
+    "id": 45,
+    "department": "Quality Assurance",
+    "spend_category": "Testing Automation Tools",
+    "description": "Comprehensive quality assurance platforms including test case management, automated testing, and defect tracking capabilities. Features cross-browser testing, mobile device testing, and performance monitoring. Supports continuous integration and automated reporting. Includes implementation and QA process consulting.",
+    "examples": "Automated testing frameworks, Quality management platforms, Test automation tools"
+  },
+  {
+    "id": 46,
+    "department": "Quality Assurance",
+    "spend_category": "Compliance Monitoring Systems",
+    "description": "Advanced compliance tracking systems including audit management, documentation control, and regulatory reporting features. Supports multiple standards (ISO, FDA, GMP), automated assessments, and corrective action tracking. Includes validation services and compliance framework development.",
+    "examples": "Quality compliance platforms, Audit management systems, Regulatory tracking tools"
+  },
+  {
+    "id": 47,
+    "department": "Project Management",
+    "spend_category": "Portfolio Management Solutions",
+    "description": "Enterprise project portfolio management platforms including resource allocation, budget tracking, and program governance features. Supports agile and traditional methodologies, capacity planning, and strategic alignment. Includes implementation and PMO setup services.",
+    "examples": "Project portfolio systems, Resource management platforms, Program governance tools"
+  },
+  {
+    "id": 48,
+    "department": "Project Management",
+    "spend_category": "Collaboration Platforms",
+    "description": "Integrated project collaboration solutions including document sharing, task management, and team communication features. Supports virtual teams, time tracking, and client portals. Features mobile access and enterprise security controls. Includes setup and team adoption services.",
+    "examples": "Project collaboration software, Team communication platforms, Virtual workspace tools"
+  },
+  {
+    "id": 49,
+    "department": "Manufacturing",
+    "spend_category": "Process Control Systems",
+    "description": "Advanced manufacturing process control solutions including automated production lines, quality inspection, and real-time monitoring capabilities. Features statistical process control, recipe management, and equipment integration. Supports Industry 4.0 standards and IoT connectivity. Includes implementation and operator training.",
+    "examples": "Manufacturing execution systems, Process automation platforms, Production control tools"
+  },
+  {
+    "id": 50,
+    "department": "Manufacturing",
+    "spend_category": "Material Requirements Planning",
+    "description": "Comprehensive MRP systems including demand forecasting, inventory optimization, and production scheduling capabilities. Features capacity planning, supplier integration, and cost tracking. Supports multiple production facilities and complex bill of materials. Includes setup and process optimization services.",
+    "examples": "Production planning systems, Material requirement platforms, Manufacturing resource tools"
+  },
+  {
+    "id": 51,
+    "department": "Asset Management",
+    "spend_category": "Enterprise Asset Management",
+    "description": "Integrated asset lifecycle management platforms including maintenance scheduling, performance monitoring, and cost tracking capabilities. Features predictive maintenance, mobile work orders, and spare parts management. Supports IoT sensor integration and reliability analysis. Includes implementation and maintenance strategy development.",
+    "examples": "Asset management platforms, Maintenance management systems, Equipment tracking tools"
+  },
+  {
+    "id": 52,
+    "department": "Asset Management",
+    "spend_category": "Fleet Management Solutions",
+    "description": "Comprehensive fleet management systems including vehicle tracking, maintenance scheduling, and fuel management features. Supports route optimization, driver safety monitoring, and compliance reporting. Features mobile access and real-time analytics. Includes implementation and fleet optimization services.",
+    "examples": "Fleet tracking platforms, Vehicle management systems, Transportation optimization tools"
+  },
+  {
+    "id": 53,
+    "department": "Customer Experience",
+    "spend_category": "Voice of Customer Platforms",
+    "description": "Advanced customer feedback management systems including survey automation, sentiment analysis, and experience monitoring capabilities. Features omnichannel feedback collection, text analytics, and automated action management. Supports multiple languages and custom reporting. Includes setup and CX strategy consulting.",
+    "examples": "Customer feedback platforms, Experience management systems, Survey automation tools"
+  },
+  {
+    "id": 54,
+    "department": "Customer Experience",
+    "spend_category": "Knowledge Management Systems",
+    "description": "Enterprise knowledge base platforms including content management, search optimization, and self-service portal features. Supports multiple content types, version control, and personalization. Features AI-powered recommendations and usage analytics. Includes implementation and content migration services.",
+    "examples": "Knowledge base platforms, Self-service portals, Content management systems"
+  },
+  {
+    "id": 55,
+    "department": "Business Intelligence",
+    "spend_category": "Data Visualization Tools",
+    "description": "Advanced analytics visualization platforms including interactive dashboards, report automation, and data storytelling capabilities. Features real-time updates, drill-down analysis, and mobile optimization. Supports multiple data sources and embedded analytics. Includes implementation and dashboard development services.",
+    "examples": "Business intelligence platforms, Analytics visualization tools, Reporting automation systems"
+  },
+  {
+    "id": 56,
+    "department": "Business Intelligence",
+    "spend_category": "Predictive Analytics Solutions",
+    "description": "Enterprise-grade predictive modeling and machine learning platforms including automated model development, deployment management, and performance monitoring. Features automated feature engineering, model versioning, and A/B testing capabilities. Supports both structured and unstructured data analysis. Includes data scientist training and model development services.",
+    "examples": "Machine learning platforms, Predictive modeling tools, AI model management systems"
+  },
+  {
+    "id": 57,
+    "department": "Business Intelligence",
+    "spend_category": "ETL and Data Integration",
+    "description": "Advanced data integration platforms including automated data pipeline creation, data quality management, and metadata cataloging capabilities. Features real-time data streaming, error handling, and compliance monitoring. Supports multiple data sources and formats. Includes implementation and data architecture consulting.",
+    "examples": "Data integration platforms, ETL automation tools, Data pipeline systems"
+  },
+  {
+    "id": 58,
+    "department": "Digital Marketing",
+    "spend_category": "Marketing Automation Platforms",
+    "description": "Comprehensive marketing automation solutions including campaign management, lead nurturing, and customer journey orchestration. Features AI-powered personalization, multi-channel campaign execution, and advanced segmentation capabilities. Supports integration with CRM and analytics platforms. Includes implementation and marketing strategy consulting.",
+    "examples": "Marketing automation systems, Campaign management platforms, Customer journey tools"
+  },
+  {
+    "id": 59,
+    "department": "Digital Marketing",
+    "spend_category": "Social Media Management",
+    "description": "Enterprise social media management platforms including content scheduling, engagement monitoring, and performance analytics. Features AI-assisted content recommendations, crisis management alerts, and competitive analysis. Supports multiple networks and team collaboration. Includes strategy development and training services.",
+    "examples": "Social media management platforms, Social listening tools, Content management systems"
+  },
+  {
+    "id": 60,
+    "department": "Digital Marketing",
+    "spend_category": "SEO and Content Analytics",
+    "description": "Advanced search engine optimization and content performance platforms including keyword research, content optimization, and ranking analysis. Features competitor tracking, content gap analysis, and automated recommendations. Supports multiple languages and markets. Includes SEO strategy development and content optimization services.",
+    "examples": "SEO analysis platforms, Content performance tools, Ranking optimization systems"
+  },
+  {
+    "id": 61,
+    "department": "Network Operations",
+    "spend_category": "Network Performance Management",
+    "description": "Enterprise network monitoring and optimization platforms including performance analysis, capacity planning, and troubleshooting capabilities. Features real-time alerting, automated root cause analysis, and SLA monitoring. Supports multi-vendor environments and cloud networks. Includes implementation and network optimization services.",
+    "examples": "Network monitoring systems, Performance management tools, Capacity planning platforms"
+  },
+  {
+    "id": 62,
+    "department": "Network Operations",
+    "spend_category": "SD-WAN Solutions",
+    "description": "Software-defined networking platforms including traffic optimization, security integration, and centralized management capabilities. Features application-aware routing, automated failover, and quality of service controls. Supports hybrid cloud environments and multiple carriers. Includes design, implementation, and operation services.",
+    "examples": "SD-WAN platforms, Network optimization tools, Traffic management systems"
+  },
+  {
+    "id": 63,
+    "department": "Cloud Operations",
+    "spend_category": "Cloud Cost Management",
+    "description": "Advanced cloud cost optimization platforms including resource tracking, budget management, and optimization recommendations. Features automated rightsizing, reserved instance management, and waste identification. Supports multiple cloud providers and custom pricing agreements. Includes implementation and cost optimization consulting.",
+    "examples": "Cloud cost platforms, Resource optimization tools, Budget management systems"
+  },
+  {
+    "id": 64,
+    "department": "Cloud Operations",
+    "spend_category": "Cloud Security Posture",
+    "description": "Cloud security management platforms including compliance monitoring, threat detection, and configuration management capabilities. Features automated remediation, security scoring, and regulatory reporting. Supports multi-cloud environments and custom security policies. Includes implementation and security assessment services.",
+    "examples": "Cloud security platforms, Compliance monitoring tools, Configuration management systems"
+  },
+  {
+    "id": 65,
+    "department": "DevOps",
+    "spend_category": "CI/CD Platforms",
+    "description": "Enterprise continuous integration and deployment platforms including automated testing, deployment orchestration, and release management capabilities. Features environment management, artifact repositories, and deployment rollback capabilities. Supports multiple development frameworks and cloud platforms. Includes implementation and DevOps process consulting.",
+    "examples": "CI/CD automation platforms, Release management tools, Deployment orchestration systems"
+  },
+  {
+    "id": 66,
+    "department": "DevOps",
+    "spend_category": "Container Orchestration",
+    "description": "Enterprise container management platforms including orchestration, service mesh, and monitoring capabilities. Features automated scaling, service discovery, and load balancing. Supports multiple container runtimes and cloud environments. Includes implementation and container strategy consulting.",
+    "examples": "Container orchestration platforms, Kubernetes management tools, Service mesh systems"
+  },
+  {
+    "id": 67,
+    "department": "Data Science",
+    "spend_category": "Machine Learning Operations",
+    "description": "MLOps platforms including model lifecycle management, experiment tracking, and deployment automation capabilities. Features automated retraining, version control, and performance monitoring. Supports multiple ML frameworks and deployment environments. Includes implementation and ML workflow optimization.",
+    "examples": "MLOps platforms, Model management tools, ML lifecycle systems"
+  },
+  {
+    "id": 68,
+    "department": "Data Science",
+    "spend_category": "Data Labeling Solutions",
+    "description": "Advanced data annotation platforms including workflow automation, quality control, and project management capabilities. Features automated pre-labeling, consensus scoring, and performance analytics. Supports multiple data types and annotation tasks. Includes setup and annotation team training.",
+    "examples": "Data labeling platforms, Annotation management tools, Quality control systems"
+  },
+  {
+    "id": 69,
+    "department": "Collaboration",
+    "spend_category": "Enterprise Communication",
+    "description": "Unified communication platforms including video conferencing, team messaging, and telephony integration. Features presence management, meeting scheduling, and recording capabilities. Supports mobile access and enterprise security requirements. Includes implementation and user adoption services.",
+    "examples": "Communication platforms, Team collaboration tools, Video conferencing systems"
+  },
+  {
+    "id": 70,
+    "department": "Collaboration",
+    "spend_category": "Document Management",
+    "description": "Enterprise document management systems including version control, workflow automation, and compliance features. Features AI-powered search, automated classification, and retention management. Supports multiple file types and integration with office tools. Includes implementation and information governance consulting.",
+    "examples": "Document management platforms, Content services tools, Records management systems"
+  },
+  {
+    "id": 71,
+    "department": "Learning & Development",
+    "spend_category": "Learning Management Systems",
+    "description": "Enterprise learning platforms including course authoring, skills tracking, and certification management capabilities. Features adaptive learning paths, gamification elements, and social learning tools. Supports multiple content formats, virtual classrooms, and mobile learning. Includes content development, implementation, and learning strategy consulting.",
+    "examples": "Enterprise LMS platforms, Training management systems, E-learning authoring tools"
+  },
+  {
+    "id": 72,
+    "department": "Learning & Development",
+    "spend_category": "Virtual Training Platforms",
+    "description": "Advanced virtual classroom solutions including interactive workshops, simulation-based training, and assessment capabilities. Features breakout rooms, virtual labs, and engagement tracking. Supports multiple teaching modalities and global audiences. Includes trainer enablement and virtual facilitation services.",
+    "examples": "Virtual classroom platforms, Training simulation tools, Remote learning systems"
+  },
+  {
+    "id": 73,
+    "department": "Innovation Management",
+    "spend_category": "Idea Management Platforms",
+    "description": "Comprehensive innovation management solutions including idea collection, evaluation workflows, and portfolio tracking capabilities. Features collaboration tools, ROI assessment, and stage-gate process management. Supports multiple innovation programs and stakeholder groups. Includes innovation process consulting and platform implementation.",
+    "examples": "Innovation management systems, Idea tracking platforms, Portfolio evaluation tools"
+  },
+  {
+    "id": 74,
+    "department": "Innovation Management",
+    "spend_category": "Patent Management Systems",
+    "description": "Specialized intellectual property management platforms including patent tracking, portfolio analysis, and lifecycle management capabilities. Features automated searches, citation analysis, and renewal management. Supports multiple jurisdictions and patent types. Includes IP strategy consulting and system implementation.",
+    "examples": "Patent management platforms, IP portfolio tools, Innovation tracking systems"
+  },
+  {
+    "id": 75,
+    "department": "Talent Acquisition",
+    "spend_category": "Recruitment Management",
+    "description": "Enterprise recruitment platforms including candidate sourcing, assessment management, and onboarding automation capabilities. Features AI-powered screening, video interviewing, and talent pool management. Supports multiple hiring workflows and compliance requirements. Includes implementation and recruitment process optimization.",
+    "examples": "Applicant tracking systems, Recruitment management platforms, Talent acquisition tools"
+  },
+  {
+    "id": 76,
+    "department": "Talent Acquisition",
+    "spend_category": "Employee Assessment",
+    "description": "Advanced assessment platforms including skills testing, personality profiling, and behavioral assessment capabilities. Features custom assessment creation, automated scoring, and predictive analytics. Supports multiple assessment types and validation methods. Includes assessment design and validation services.",
+    "examples": "Skills assessment platforms, Psychometric testing tools, Behavioral assessment systems"
+  },
+  {
+    "id": 77,
+    "department": "Content Production",
+    "spend_category": "Digital Asset Management",
+    "description": "Enterprise digital asset management platforms including media libraries, rights management, and distribution capabilities. Features AI-powered tagging, version control, and usage analytics. Supports multiple file formats and creative workflows. Includes implementation and metadata strategy consulting.",
+    "examples": "Digital asset management systems, Media library platforms, Content repository tools"
+  },
+  {
+    "id": 78,
+    "department": "Content Production",
+    "spend_category": "Creative Workflow Management",
+    "description": "Creative production management platforms including project tracking, review cycles, and resource management capabilities. Features automated workflows, proofing tools, and brand compliance checking. Supports multiple creative teams and client collaboration. Includes workflow optimization and system implementation.",
+    "examples": "Creative workflow platforms, Design management systems, Production tracking tools"
+  },
+  {
+    "id": 79,
+    "department": "Mobile Development",
+    "spend_category": "App Development Platforms",
+    "description": "Enterprise mobile application development platforms including cross-platform development, testing automation, and deployment management capabilities. Features component libraries, API integration, and performance monitoring. Supports multiple device types and operating systems. Includes implementation and mobile strategy consulting.",
+    "examples": "Mobile development platforms, App testing tools, Deployment management systems"
+  },
+  {
+    "id": 80,
+    "department": "Mobile Development",
+    "spend_category": "Mobile Testing Solutions",
+    "description": "Comprehensive mobile testing platforms including automated testing, device cloud access, and performance analysis capabilities. Features real device testing, test script automation, and defect tracking. Supports multiple mobile platforms and test frameworks. Includes test strategy development and implementation services.",
+    "examples": "Mobile testing platforms, Device cloud systems, Performance testing tools"
+  },
+  {
+    "id": 81,
+    "department": "Enterprise Architecture",
+    "spend_category": "Architecture Modeling Tools",
+    "description": "Enterprise architecture modeling platforms including business capability mapping, dependency analysis, and roadmap planning capabilities. Features impact analysis, scenario planning, and governance tracking. Supports multiple frameworks and modeling notations. Includes architecture consulting and tool implementation.",
+    "examples": "Architecture modeling platforms, Enterprise mapping tools, Roadmap planning systems"
+  },
+  {
+    "id": 82,
+    "department": "Enterprise Architecture",
+    "spend_category": "API Management Platforms",
+    "description": "Advanced API management solutions including gateway services, developer portals, and usage analytics capabilities. Features security controls, rate limiting, and monetization tools. Supports multiple protocols and integration patterns. Includes API strategy consulting and platform implementation.",
+    "examples": "API management systems, Gateway platforms, Developer portal tools"
+  },
+  {
+    "id": 83,
+    "department": "Information Security",
+    "spend_category": "Security Orchestration",
+    "description": "Security orchestration and automated response platforms including incident management, playbook automation, and threat intelligence integration capabilities. Features case management, automated remediation, and compliance reporting. Supports multiple security tools and custom workflows. Includes security process consulting and platform implementation.",
+    "examples": "SOAR platforms, Incident response systems, Security automation tools"
+  },
+  {
+    "id": 84,
+    "department": "Information Security",
+    "spend_category": "Vulnerability Management",
+    "description": "Enterprise vulnerability management platforms including automated scanning, risk assessment, and remediation tracking capabilities. Features asset discovery, prioritization algorithms, and patch management. Supports multiple environments and compliance frameworks. Includes security assessment and platform implementation services.",
+    "examples": "Vulnerability scanning platforms, Risk management tools, Remediation tracking systems"
+  },
+  {
+    "id": 85,
+    "department": "Database Administration",
+    "spend_category": "Database Performance Management",
+    "description": "Advanced database monitoring and optimization platforms including performance analysis, capacity planning, and query optimization capabilities. Features automated tuning, anomaly detection, and historical trending. Supports multiple database types and deployment models. Includes database optimization consulting and tool implementation.",
+    "examples": "Database monitoring platforms, Performance optimization tools, Capacity planning systems"
+  },
+  {
+    "id": 86,
+    "department": "Database Administration",
+    "spend_category": "Database Migration Tools",
+    "description": "Enterprise database migration platforms including schema conversion, data synchronization, and validation capabilities. Features automated mapping, performance optimization, and rollback management. Supports heterogeneous migrations and zero-downtime transitions. Includes migration strategy consulting and implementation services.",
+    "examples": "Database migration platforms, Data synchronization tools, Schema conversion systems"
+  },
+  {
+    "id": 87,
+    "department": "Business Process",
+    "spend_category": "Process Mining Solutions",
+    "description": "Advanced process mining and analysis platforms including automated process discovery, conformance checking, and optimization recommendation capabilities. Features real-time monitoring, bottleneck analysis, and simulation modeling. Supports multiple data sources and process types. Includes process optimization consulting and implementation services.",
+    "examples": "Process mining platforms, Workflow analysis tools, Performance optimization systems"
+  },
+  {
+    "id": 88,
+    "department": "Business Process",
+    "spend_category": "Robotic Process Automation",
+    "description": "Enterprise RPA platforms including bot development, orchestration, and monitoring capabilities. Features AI integration, exception handling, and version control. Supports attended and unattended automation scenarios. Includes automation strategy consulting and bot development services.",
+    "examples": "RPA development platforms, Bot management systems, Automation orchestration tools"
+  },
+  {
+    "id": 89,
+    "department": "User Experience",
+    "spend_category": "UX Research Platforms",
+    "description": "Comprehensive user research platforms including usability testing, heat mapping, and feedback collection capabilities. Features session recording, journey mapping, and sentiment analysis. Supports multiple research methodologies and data collection methods. Includes UX strategy consulting and research design services.",
+    "examples": "User testing platforms, Heat mapping tools, Experience analytics systems"
+  },
+  {
+    "id": 90,
+    "department": "User Experience",
+    "spend_category": "Design Systems Management",
+    "description": "Enterprise design system platforms including component libraries, documentation management, and version control capabilities. Features design token management, accessibility checking, and collaboration tools. Supports multiple design tools and development frameworks. Includes design system strategy and implementation services.",
+    "examples": "Design system platforms, Component management tools, Documentation systems"
+  },
+  {
+    "id": 91,
+    "department": "Artificial Intelligence",
+    "spend_category": "Computer Vision Systems",
+    "description": "Advanced computer vision platforms including image recognition, object detection, and video analysis capabilities. Features model training, annotation tools, and performance monitoring. Supports multiple use cases and deployment environments. Includes AI strategy consulting and model development services.",
+    "examples": "Computer vision platforms, Image analysis tools, Video processing systems"
+  },
+  {
+    "id": 92,
+    "department": "Artificial Intelligence",
+    "spend_category": "Natural Language Processing",
+    "description": "Enterprise NLP platforms including text analysis, sentiment detection, and language generation capabilities. Features custom model training, multi-language support, and accuracy monitoring. Supports multiple use cases and integration scenarios. Includes NLP strategy consulting and model development services.",
+    "examples": "NLP platforms, Text analytics tools, Language processing systems"
+  },
+  {
+    "id": 93,
+    "department": "IoT Management",
+    "spend_category": "IoT Platform Solutions",
+    "description": "Comprehensive IoT management platforms including device management, data collection, and analytics capabilities. Features remote monitoring, firmware updates, and anomaly detection. Supports multiple protocols and device types. Includes IoT strategy consulting and platform implementation services.",
+    "examples": "IoT management platforms, Device monitoring tools, Analytics systems"
+  },
+  {
+    "id": 94,
+    "department": "IoT Management",
+    "spend_category": "Edge Computing Solutions",
+    "description": "Advanced edge computing platforms including local processing, data filtering, and synchronization capabilities. Features offline operation, bandwidth optimization, and security controls. Supports multiple edge scenarios and device types. Includes edge strategy consulting and implementation services.",
+    "examples": "Edge computing platforms, Local processing systems, Data synchronization tools"
+  },
+  {
+    "id": 95,
+    "department": "Virtual Reality",
+    "spend_category": "VR Development Platforms",
+    "description": "Enterprise virtual reality development platforms including 3D modeling, interaction design, and deployment management capabilities. Features multi-user support, analytics tracking, and content management. Supports multiple VR devices and use cases. Includes VR strategy consulting and development services.",
+    "examples": "VR development platforms, 3D modeling tools, Interaction design systems"
+  },
+  {
+    "id": 96,
+    "department": "Virtual Reality",
+    "spend_category": "VR Training Solutions",
+    "description": "Specialized VR training platforms including scenario creation, assessment tracking, and performance analysis capabilities. Features immersive experiences, real-time feedback, and progress monitoring. Supports multiple training scenarios and learning objectives. Includes training design and implementation services.",
+    "examples": "VR training platforms, Scenario development tools, Assessment systems"
+  },
+  {
+    "id": 97,
+    "department": "Blockchain",
+    "spend_category": "Distributed Ledger Platforms",
+    "description": "Enterprise blockchain platforms including smart contract development, network management, and consensus mechanism capabilities. Features transaction monitoring, audit trails, and compliance reporting. Supports multiple blockchain protocols and use cases. Includes blockchain strategy consulting and implementation services.",
+    "examples": "Blockchain development platforms, Smart contract systems, Network management tools"
+  },
+  {
+    "id": 98,
+    "department": "Quantum Computing",
+    "spend_category": "Quantum Development Kits",
+    "description": "Advanced quantum computing development platforms including algorithm design, simulation capabilities, and optimization tools. Features quantum circuit design, error correction, and performance analysis. Supports multiple quantum computing paradigms. Includes quantum strategy consulting and algorithm development services.",
+    "examples": "Quantum development platforms, Circuit design tools, Simulation systems"
+  },
+  {
+    "id": 99,
+    "department": "Digital Workplace",
+    "spend_category": "Employee Experience Platforms",
+    "description": "Comprehensive digital workplace platforms including personalized portals, knowledge management, and collaboration capabilities. Features workflow automation, search functionality, and analytics. Supports multiple devices and work styles. Includes workplace strategy consulting and platform implementation services.",
+    "examples": "Digital workplace platforms, Portal management tools, Collaboration systems"
+  },
+  {
+    "id": 100,
+    "department": "Digital Workplace",
+    "spend_category": "Workplace Analytics",
+    "description": "Advanced workplace analytics platforms including productivity monitoring, collaboration analysis, and wellbeing tracking capabilities. Features pattern recognition, trend analysis, and recommendation engines. Supports privacy-preserving monitoring and multiple data sources. Includes analytics strategy consulting and implementation services.",
+    "examples": "Workplace analytics platforms, Productivity monitoring tools, Collaboration analysis systems"
+  }
+]
