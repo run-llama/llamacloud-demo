@@ -1,3 +1,12 @@
+# ⚠️ Important Notice
+
+This repository is deprecated and no longer maintained.
+
+For the latest python examples, please refer to the `llama-cloud-services` repository examples: 
+https://github.com/run-llama/llama_cloud_services/tree/main/examples
+
+---
+
 # LlamaCloud Demo
 
 This repository contains a collection of cookbooks to show you how to build LLM applications using LlamaCloud to help manage your data pipelines, and LlamaIndex as the core orchestration framework.
